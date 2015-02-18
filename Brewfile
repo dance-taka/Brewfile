@@ -52,6 +52,7 @@ install tree
 install wget
 install zsh
 install zsh-completions
+install brew-gem
 
 # App Store applications
 appstore Bandwidth+
@@ -64,3 +65,7 @@ appstore Keynote
 appstore Numbers
 appstore Pages
 appstore Xcode
+
+# gem packages
+/usr/local/bin/brew gem install homesick
+
